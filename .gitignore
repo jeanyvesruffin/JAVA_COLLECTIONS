@@ -1,16 +1,60 @@
-workspace.xml
-junitvmwatcher*.properties
-build.properties
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
 
-# generated java classes and java source files
-#   manually add any custom artifacts that can't be generated from the models
-#   http://confluence.jetbrains.com/display/MPSD25/HowTo+--+MPS+and+Git
-classes_gen
-source_gen
-source_gen.caches
+# External tool builders
+.externalToolBuilders/
 
-# generated test code and test results
-test_gen
-test_gen.caches
-TEST-*.xml
-junit*.properties
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# PyDev specific (Python IDE for Eclipse)
+*.pydevproject
+
+# CDT-specific (C/C++ Development Tooling)
+.cproject
+
+# CDT- autotools
+.autotools
+
+# Java annotation processor (APT)
+.factorypath
+
+# PDT-specific (PHP Development Tools)
+.buildpath
+
+# sbteclipse plugin
+.target
+
+# Tern plugin
+.tern-project
+
+# TeXlipse plugin
+.texlipse
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# Code Recommenders
+.recommenders/
+
+# Annotation Processing
+.apt_generated/
+.apt_generated_test/
+
+# Scala IDE specific (Scala & Java development for Eclipse)
+.cache-main
+.scala_dependencies
+.worksheet
+
+# Uncomment this line if you wish to ignore the project description file.
+# Typically, this file would be tracked if it contains build/dependency configurations:
+#.project
