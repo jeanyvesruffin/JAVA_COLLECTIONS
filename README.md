@@ -93,6 +93,8 @@ private static Product[] add(Product product, Product[] array)
 
 # Les Collections
 
+![Collections](./Collections.png)
+
 
 # Les Lists: collections avec ordre d'iteration
 
