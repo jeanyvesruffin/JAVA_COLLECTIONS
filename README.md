@@ -103,7 +103,20 @@ Rouge: non
 
 ![Euristique](./Euristique.png)
 
+La class collections extends iterable, se qui lui permet d'iterer sur tous les elements de la collection.
 
+Quelques methodes de la classe Collections:
+
+* size() ==> Renvoie le nombre d'elements de cette collection.
+* isEmpty() ==> Renvoie true si cette collection ne contient aucun element.
+* add() ==> Garantit que cette collection contient l'element specifie.
+* addAll() ==> Ajoute tous les elements de la collection specifiee à cette collection.
+* remove(element) ==> Supprime une seule instance de l'element specifie de cette collection, si elle est presente.
+* removeAll(Collection) ==> Supprime tous les elements de cette collection qui sont egalement contenus dans la collection specifiee
+* retain(Collection) ==> Conserve uniquement les elements de cette collection qui sont contenus dans la collection specifiee
+* contains(element) ==> Renvoie true si cette collection contient l'element specifie.
+* containAll(collection) ==> Renvoie true si cette collection contient tous les elements de la collection specifiee.
+* clear() ==> Supprime tous les elements de cette collection.
 
 
 
