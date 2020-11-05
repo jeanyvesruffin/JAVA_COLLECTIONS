@@ -40,7 +40,13 @@ System.out.println(Arrays.toString(products));
 **Inconvenient des Arrays**
 
 
-* Les Arrays ne sont pas facile a afficher dans la console car retourne uniquement le type d'objet contenu dedans ainsi que l'adresse memoire, rien de plus. ex: [Lcom.monotonic.collections.common.Product;@78308db1. Pour remedier a cela nous pouvons utiliser les methode toString pour afficher sont contenu:
+* Les Arrays ne sont pas facile a afficher dans la console car retourne uniquement le type d'objet contenu dedans ainsi que l'adresse memoire, rien de plus.
+
+```cmd
+[Lcom.monotonic.collections.common.Product;@78308db1].
+```
+
+Pour remedier a cela nous pouvons utiliser la methode toString de la class Arrays pour afficher sont contenu:
 
 
 ```java
@@ -50,4 +56,45 @@ System.out.println(Arrays.toString(products));
 
 >**Arrays.toString(tableau [] en parametre)** ==> Retourne les chaine de caractere contenu dans un tableau
 
-* Si on declare un tableau avec deux index contenant deux string et que l'on ajoute 
+* Si on declare un tableau de deux index contenant deux string et que l'on y ajoute un troisieme element lors JVM nous retourne l'exception ArrayIndexOutOfBoundsException:
+
+```cmd
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2
+	at com.monotonic.collections._2_what_are_collections.before.TheArrayProblem.main(TheArrayProblem.java:20)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
