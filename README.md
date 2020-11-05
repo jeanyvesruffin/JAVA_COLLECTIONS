@@ -48,6 +48,6 @@ System.out.println(Arrays.toString(products));
 
 ```
 
-**Arrays.toString(tableau [] en parametre)** ==> Retourne les chaine de caractere contenu dans un tableau
+>**Arrays.toString(tableau [] en parametre)** ==> Retourne les chaine de caractere contenu dans un tableau
 
 * Si on declare un tableau avec deux index contenant deux string et que l'on ajoute 
