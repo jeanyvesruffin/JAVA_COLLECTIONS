@@ -1,6 +1,6 @@
 # JAVA_COLLECTIONS
 
-# Context et lecture application
+# Context application
 
 Apres avoir recupere le projet et l'avoir construit a l'aide de gradle, lisons le code.
 
@@ -27,13 +27,8 @@ System.out.println(products);
 ```
 
 * Ajouter un produit au tableau
+* Dupliquer ce produit dans le tableau
 
-```java
-products[2]=window;
-System.out.println(Arrays.toString(products));
-```
-
-* Dupliquer ce tableau
 
 # Le probleme des Array
 
@@ -95,6 +90,28 @@ private static Product[] add(Product product, Product[] array)
 
 
 **LES COLLECTIONS SONT LA SOLUTIONS DE NOS PROBLEME D'ARRAYS**
+
+# Les Collections
+
+
+# Les Lists: collections avec ordre d'iteration
+
+
+
+# Les Maps: Collections avec pairs (cle/ valeur)
+
+
+
+# Les Streams
+
+
+
+# Les operations et fabriques de Collections
+
+
+
+
+# Les Sets: Collection avec unicite
 
 
 
