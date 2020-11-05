@@ -96,6 +96,17 @@ private static Product[] add(Product product, Product[] array)
 ![Collections](./Collections.png)
 
 
+
+Vert: oui
+
+Rouge: non
+
+![Euristique](./Euristique.png)
+
+
+
+
+
 # Les Lists: collections avec ordre d'iteration
 
 
