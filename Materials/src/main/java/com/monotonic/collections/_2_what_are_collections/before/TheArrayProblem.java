@@ -8,13 +8,18 @@ public class TheArrayProblem
 {
     public static void main(String[] args)
     {
-        Product door = new Product("Wooden Door", 35);
-        Product floorPanel = new Product("Floor Panel", 25);
-        Product window = new Product("Glass Window", 10);
+        Product door = new Product("Porte en bois", 35);
+        Product floorPanel = new Product("Panneau de plancher", 25);
+        Product window = new Product("Fenetre", 10);
 
         // Create
+        Product[] products = {door, floorPanel};
         // Print
+        System.out.println(Arrays.toString(products));
         // Add
+        products[2]=window;
+        System.out.println(Arrays.toString(products));
+        
         // Duplicate
     }
 

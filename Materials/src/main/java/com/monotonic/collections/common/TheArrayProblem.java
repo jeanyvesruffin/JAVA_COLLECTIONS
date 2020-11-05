@@ -6,8 +6,8 @@ public class TheArrayProblem
 {
     public static void main(String[] args)
     {
-        Product door = new Product("Wooden Door", 35);
-        Product floorPanel = new Product("Floor Panel", 25);
+        Product door = new Product("Porte en bois", 35);
+        Product floorPanel = new Product("Panneau de plancher", 25);
 
         // Create
         Product[] products = { door, floorPanel };
@@ -16,7 +16,7 @@ public class TheArrayProblem
         System.out.println(Arrays.toString(products));
 
         // Add
-        final Product window = new Product("Window", 15);
+        final Product window = new Product("Fenetre", 15);
         products = add(window, products);
         System.out.println(Arrays.toString(products));
 
